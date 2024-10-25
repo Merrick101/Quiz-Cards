@@ -7,7 +7,7 @@ def main_menu():
         print("4. Delete a Flashcard")
         print("5. Exit")
 
-        choice = input("Please select an option (1-6): ")
+        choice = input("Please select an option (1-5): ")
 
         if choice == "1":
             add_flashcard()
@@ -36,10 +36,8 @@ def display_welcome_message():
     print("2. View all flashcards to review and reinforce your knowledge.")
     print("3. Test yourself with our Quiz mode to see how much you’ve learned.")
     print("4. Delete flashcards you no longer need to keep your study deck fresh.")
-    print("5. Import random flashcards from our trivia database for an added challenge!")
     print()
     print("Let’s get started and make learning fun and interactive!")
-    print("*****************************************")
 
 def main():
     """
@@ -47,4 +45,6 @@ def main():
     """
     display_welcome_message()
     main_menu()
+
+main()
 
