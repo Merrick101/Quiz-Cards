@@ -24,3 +24,27 @@ def main_menu():
         else:
             print("Invalid option. Please try again.")
 
+def display_welcome_message():
+    print("*****************************************")
+    print("        Welcome to QuizCards!")
+    print("*****************************************")
+    print()
+    print("The ultimate flashcard quiz tool to boost your knowledge!")
+    print()
+    print("With QuizCards, you can:")
+    print("1. Add your own flashcards for personalized learning.")
+    print("2. View all flashcards to review and reinforce your knowledge.")
+    print("3. Test yourself with our Quiz mode to see how much you’ve learned.")
+    print("4. Delete flashcards you no longer need to keep your study deck fresh.")
+    print("5. Import random flashcards from our trivia database for an added challenge!")
+    print()
+    print("Let’s get started and make learning fun and interactive!")
+    print("*****************************************")
+
+def main():
+    """
+    Run program functions
+    """
+    display_welcome_message()
+    main_menu()
+
